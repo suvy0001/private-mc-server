@@ -1,0 +1,366 @@
+
+# THESE ITEMS ARE MEANT TO BE USED AS FURNITURE
+# AND CAN BE DESTROYED TO RETRIEVE THEM.
+
+
+bluebdsign_em:
+  Id: brick
+  Model: 6737
+  Hide:
+  - Attributes
+  Display: '<#4da39c>Blue Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6737
+    Drops:
+    - bluebdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=light_blue_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+greenbdsign_em:
+  Id: brick
+  Model: 6738
+  Hide:
+  - Attributes
+  Display: '<#52ae38>Green Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6738
+    Drops:
+    - greenbdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=lime_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+magentabdsign_em:
+  Id: brick
+  Model: 6739
+  Hide:
+  - Attributes
+  Display: '<#c01886>Magenta Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6739
+    Drops:
+    - magentabdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=magenta_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+redbdsign_em:
+  Id: brick
+  Model: 6740
+  Hide:
+  - Attributes
+  Display: '<#f44336>Red Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6740
+    Drops:
+    - redbdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=red_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+violetbdsign_em:
+  Id: brick
+  Model: 6741
+  Hide:
+  - Attributes
+  Display: '<#674ea7>Violet Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6741
+    Drops:
+    - violetbdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=purple_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+yellowbdsign_em:
+  Id: brick
+  Model: 6742
+  Hide:
+  - Attributes
+  Display: '<#ffd966>Yellow Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6742
+    Drops:
+    - yellowbdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=yellow_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+orangebdsign_em:
+  Id: brick
+  Model: 6743
+  Hide:
+  - Attributes
+  Display: '<#C9801D>Orange Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6743
+    Drops:
+    - orangebdsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=orange_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+#=== CALLIGRAPHIC
+
+bluecgsign_em:
+  Id: brick
+  Model: 6751
+  Hide:
+  - Attributes
+  Display: '<#4da39c>Blue Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6751
+    Drops:
+    - bluecgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=light_blue_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+greencgsign_em:
+  Id: brick
+  Model: 6752
+  Hide:
+  - Attributes
+  Display: '<#52ae38>Green Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6752
+    Drops:
+    - greencgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=lime_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+magentacgsign_em:
+  Id: brick
+  Model: 6753
+  Hide:
+  - Attributes
+  Display: '<#c01886>Magenta Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6753
+    Drops:
+    - magentacgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=magenta_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+redcgsign_em:
+  Id: brick
+  Model: 6754
+  Hide:
+  - Attributes
+  Display: '<#f44336>Red Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6754
+    Drops:
+    - redcgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=red_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+violetcgsign_em:
+  Id: brick
+  Model: 6755
+  Hide:
+  - Attributes
+  Display: '<#674ea7>Violet Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6755
+    Drops:
+    - violetcgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=purple_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+yellowcgsign_em:
+  Id: brick
+  Model: 6756
+  Hide:
+  - Attributes
+  Display: '<#ffd966>Yellow Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6756
+    Drops:
+    - yellowcgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=yellow_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+orangecgsign_em:
+  Id: brick
+  Model: 6757
+  Hide:
+  - Attributes
+  Display: '<#C9801D>Orange Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6757
+    Drops:
+    - orangecgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=orange_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+silvercgsign_em:
+  Id: brick
+  Model: 6758
+  Hide:
+  - Attributes
+  Display: '<#b0bfbe>Silver Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6758
+    Drops:
+    - silvercgsign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=iron_block;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+
+#==== ANNIVERSARY 
+
+yansign_em:
+  Id: brick
+  Model: 6761
+  Hide:
+  - Attributes
+  Display: '<#ffd966>Yellow Anniversary Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6761
+    Drops:
+    - yansign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=gold_block;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak
+
+sansign_em:
+  Id: brick
+  Model: 6762
+  Hide:
+  - Attributes
+  Display: '<#b0bfbe>Silver Birthday Sign'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6762
+    Drops:
+    - sansign_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=iron_block;a=25;hs=1;y=0.2;vs=0.3;s=0.2;sO=-0.5} @Self ~onBlockBreak

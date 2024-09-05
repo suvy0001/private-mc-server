@@ -1,0 +1,309 @@
+tntpinata_em:
+  Type: silverfish
+  Display: 'Pinata'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a Pinata. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=tntpinata_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  - lockmodel{l=true} @Self ~onSpawn
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=tntpinata_em;a=1} @Parent ~onSpawn 
+
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+#LOCATION ASSIGNEMENT 
+  - setvariable{var=caster.locationx;value="<caster.l.x>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationz;value="<caster.l.z>";t=integer} @Self ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=0} ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.locationz>+0.5,0,-1} ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=2} ~onSpawn ?!inblock{b=air}
+#  
+#HIT ASSIGNEMENT 
+  - skill{s=pinata_hit_em} @Trigger ~onDamaged
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+  - dropitem{i=gunpowder;repeat=4;repeatinterval=1} @SelfLocation{y=0.5} ~onDeath
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6} ~onDeath
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+creeperpinata_em:
+  Type: silverfish
+  Display: 'Pinata'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a Pinata. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=creeperpinata_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  - lockmodel{l=true} @Self ~onSpawn
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=creeperpinata_em;a=1} @Parent ~onSpawn 
+
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+#LOCATION ASSIGNEMENT 
+  
+  - setvariable{var=caster.locationx;value="<caster.l.x>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationz;value="<caster.l.z>";t=integer} @Self ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=0} ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.locationz>+0.5,0,-1} ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=2} ~onSpawn ?!inblock{b=air}
+#  
+#HIT ASSIGNEMENT 
+  - skill{s=pinata_hit_em} @Trigger ~onDamaged
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+
+  - dropitem{i=creeper_candy_em;repeat=5;repeatinterval=1} @SelfLocation{y=0.5} ~onDeath
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6} ~onDeath
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+beepinata_em:
+  Type: silverfish
+  Display: 'Pinata'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a Pinata. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=beepinata_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  - lockmodel{l=true} @Self ~onSpawn
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=beepinata_em;a=1} @Parent ~onSpawn 
+
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+#LOCATION ASSIGNEMENT 
+  
+  - setvariable{var=caster.locationx;value="<caster.l.x>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationz;value="<caster.l.z>";t=integer} @Self ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=0} ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.locationz>+0.5,0,-1} ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=2} ~onSpawn ?!inblock{b=air}
+#  
+#HIT ASSIGNEMENT 
+  - skill{s=pinata_hit_em} @Trigger ~onDamaged
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+
+  - dropitem{i=honey_bottle;repeat=<random.1to5>;repeatinterval=1} @SelfLocation{y=0.5} ~onDeath
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6} ~onDeath
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+pinata_candymarker:
+  Type: silverfish
+  Display: 'xd'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  Skills:
+#PROJECTILES 
+  - skill{s=pinata_candymarker_shoot1} @SelfLocation{y=7} ~onSpawn
+  - remove{delay=100} @self ~onSpawn
+#
+  Options:
+    ApplyInvisibility: true
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    Invincible: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+genericpinata_em:
+  Type: silverfish
+  Display: 'Pinata'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a Pinata. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=genericpinata_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  - lockmodel{l=true} @Self ~onSpawn
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=genericpinata_em;a=1} @Parent ~onSpawn 
+
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+#LOCATION ASSIGNEMENT 
+  
+  - setvariable{var=caster.locationx;value="<caster.l.x>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationz;value="<caster.l.z>";t=integer} @Self ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=0} ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.locationz>+0.5,0,-1} ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=2} ~onSpawn ?!inblock{b=air}
+#  
+#HIT ASSIGNEMENT 
+  - skill{s=pinata_hit_em} @Trigger ~onDamaged
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6} ~onDeath
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+burritopinata_em:
+  Type: silverfish
+  Display: 'Pinata'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 40
+  Faction: Pinata
+  DamageModifiers:
+  - FIRE 0
+  - SUFFOCATION -0.004
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a Pinata. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=burritopinata_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  - lockmodel{l=true} @Self ~onSpawn
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=burritopinata_em;a=1} @Parent ~onSpawn 
+
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+#LOCATION ASSIGNEMENT 
+  
+  - setvariable{var=caster.locationx;value="<caster.l.x>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - setvariable{var=caster.locationz;value="<caster.l.z>";t=integer} @Self ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=0} ~onSpawn
+  - look{headOnly=false;immediately=false;repeat=40;repeatInterval=1;delay=0} @Location{c=<caster.l.x>,<caster.l.y>,<caster.var.locationz>+0.5,0,-1} ~onSpawn
+  - teleport{spreadh=0;spreadv=0} @Location{c=<caster.l.x>+0.5,<caster.l.y>-2,<caster.var.locationz>+0.5,0,-1;delay=2} ~onSpawn ?!inblock{b=air}
+#  
+#HIT ASSIGNEMENT 
+  - skill{s=pinata_hit_em} @Trigger ~onDamaged
+  - velocity{m=set;x=0;y=0;z=0} @self ~onDamaged
+
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6} ~onDeath
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: false
+    NoGravity: true
+    KnockbackResistance: 1
+
+# 670SOX6CW

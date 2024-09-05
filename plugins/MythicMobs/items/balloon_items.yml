@@ -1,0 +1,143 @@
+
+# THE BALLOON ITEMS ARE MEANT TO BE SUMMONERS
+# FOR THE ACTUAL CAKE ENTITIES!
+
+redballoon_em:
+  Id: brick
+  Model: 6713
+  Display: '<#f44336>Red Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=redballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+blackballoon_em:
+  Id: brick
+  Model: 6714
+  Display: '<#FFFFFF>Black Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=blackballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+whiteballoon_em:
+  Id: brick
+  Model: 6715
+  Display: '<#FFFFFF>White Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=whiteballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+magentaballoon_em:
+  Id: brick
+  Model: 6716
+  Display: '<#c01886>Magenta Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=magentaballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+greenballoon_em:
+  Id: brick
+  Model: 6717
+  Display: '<#18c04f>Green Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=greenballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+yellowballoon_em:
+  Id: brick
+  Model: 6718
+  Display: '<#ffd966>Yellow Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=yellowballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+violetballoon_em:
+  Id: brick
+  Model: 6719
+  Display: '<#674ea7>Violet Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=violetballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+blueballoon_em:
+  Id: brick
+  Model: 6720
+  Display: '<#286acc>Blue Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Or for annoying kids to'
+  - '&epop them. Wait.. what are you... oh...'
+  Skills:
+  - summon{mob=blueballoon_em;amount=1;noise=0;r=0.1;yr=0} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}
+
+randomballoon_em:
+  Id: brick
+  Model: 6715
+  Display: '<#286acc>Random Balloon'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Randomizes the color'
+  - '&eof your balloons!'
+  Skills:
+  - randomskill{s=[
+      - summon{mob=blueballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=redballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=yellowballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=violetballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=greenballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=whiteballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=magentaballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ],
+      [
+      - summon{mob=blackballoon_em;amount=1;noise=0;r=0.1;yr=0}
+    ];sync=true} @Forward{f=2;y=1} ~onUse ?equipslot{slot=HAND}

@@ -1,0 +1,189 @@
+
+# THE PINATA ITEMS ARE MEANT TO BE SUMMONERS
+# FOR THE ACTUAL PINATA ENTITIES!
+
+tntpinata_em:
+  Id: brick
+  Model: 6721
+  Display: '<#f44336>Tnt Pinata'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Has candy inside!'
+  - '&eAnd... maybe gunpowder'
+  Skills:
+  - summon{mob=tntpinata_em;amount=1;noise=0;r=0.1;yr=0} @TargetLocation{conditions=[  - distance{d=0to6} true  - inblock{b=air} false ]} ~onUse ?equipslot{slot=HAND}
+
+creeperpinata_em:
+  Id: brick
+  Model: 6722
+  Display: '<#52ae38>Creeper Pinata'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Has candy inside!'
+  - '&eAnd... maybe gunpowder'
+  Skills:
+  - summon{mob=creeperpinata_em;amount=1;noise=0;r=0.1;yr=0} @TargetLocation{conditions=[  - distance{d=0to6} true  - inblock{b=air} false ]} ~onUse ?equipslot{slot=HAND}
+  
+
+beepinata_em:
+  Id: brick
+  Model: 6723
+  Display: '<#ffd966>Bee Pinata'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Has candy inside!'
+  - '&eAnd... maybe honey'
+  Skills:
+  - summon{mob=beepinata_em;amount=1;noise=0;r=0.1;yr=0} @TargetLocation{conditions=[  - distance{d=0to6} true  - inblock{b=air} false ]} ~onUse ?equipslot{slot=HAND}
+
+genericpinata_em:
+  Id: brick
+  Model: 6724
+  Display: '<#674ea7>Classic Pinata'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Has candy inside!'
+  Skills:
+  - summon{mob=genericpinata_em;amount=1;noise=0;r=0.1;yr=0} @TargetLocation{conditions=[  - distance{d=0to6} true  - inblock{b=air} false ]} ~onUse ?equipslot{slot=HAND}
+
+burritopinata_em:
+  Id: brick
+  Model: 6725
+  Display: '<#52ae38>Donkey Pinata'
+  Hide:
+  - Attributes
+  Lore:
+  - '&ePerfect for decorating your'
+  - '&ebirthday! Has candy inside!'
+  Skills:
+  - summon{mob=burritopinata_em;amount=1;noise=0;r=0.1;yr=0} @TargetLocation{conditions=[  - distance{d=0to6} true  - inblock{b=air} false ]} ~onUse ?equipslot{slot=HAND}
+
+creeper_candy_em:
+  Id: chorus_fruit
+  Model: 6701
+  Display: '<#7EC354>Creepy Candy'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - '&eThe green apple, the sour taste,'
+  - '&eand the cheap gunpowder make it'
+  - '&ea very nice candy!'
+  Skills:
+  - feed{amount=5;s=2;of=true} @Self ~onConsume
+  - takeitem{i=creeper_candy_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=1;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume
+  - sound{s=entity.firework_rocket.blast;pitch=1.1;v=4} @self ~onConsume
+  - effect:particles{p=explosion_large;y=0;amount=4;speed=0.2;hS=0.8;vS=0.8} @Origin ~onConsume
+
+corncandy_em:
+  Id: chorus_fruit
+  Model: 6702
+  Display: '<#FFCA2A>Corn Candy'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - '&eA classic one, the corn always'
+  - '&efeels good.'
+
+  Skills:
+  - feed{amount=4;s=2;of=true} @Self ~onConsume
+  - takeitem{i=corncandy_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=1;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume
+
+chocolatin_em:
+  Id: chorus_fruit
+  Model: 6703
+  Display: '<#844931>Chocolatin'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - "&eThere's no such thing as 'too much"
+  - "&echocolate'"
+
+  Skills:
+  - feed{amount=6;s=4;of=true} @Self ~onConsume
+  - takeitem{i=chocolatin_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=1;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  - potion{type=JUMP;duration=300;level=1;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=JUMP;level=>0;duration=>300}
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume
+
+blueberryllp_em:
+  Id: chorus_fruit
+  Model: 6704
+  Display: '<#46367C>Blueberry lollipop'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - "&eDelicious and sweet, fruity"
+  - "&eand great"
+
+  Skills:
+  - feed{amount=2;s=3;of=true} @Self ~onConsume
+  - takeitem{i=blueberryllp_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=2;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  - potion{type=JUMP;duration=300;level=0;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=JUMP;level=>0;duration=>300}
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume
+
+strawberryllp_em:
+  Id: chorus_fruit
+  Model: 6705
+  Display: '<#CF6699>Strawberry lollipop'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - "&eDelicious and sweet, fruity"
+  - "&eand great"
+
+  Skills:
+  - feed{amount=2;s=3;of=true} @Self ~onConsume
+  - takeitem{i=strawberryllp_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=2;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  - potion{type=JUMP;duration=300;level=0;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=JUMP;level=>0;duration=>300}
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume
+
+minty_em:
+  Id: chorus_fruit
+  Model: 6706
+  Display: '<#FBEDED>Mint candy cane'
+  Hide:
+  - Attributes
+  Lore:
+  - '&eDelicious treat for all ages!'
+  - "&eFresh, you can't get burned with"
+  - "&eso much freshness!"
+
+  Skills:
+  - feed{amount=5;s=4;of=true} @Self ~onConsume
+  - takeitem{i=minty_em;a=1} @Self ~onConsume
+  - consumeHeldItem{amount=1} ~onConsume ?equipslot{slot=HAND}
+  - CancelEvent{sync=true} @Self ~onConsume
+  - potion{type=SPEED;duration=300;level=2;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=SPEED;level=>0;duration=>300}
+  - potion{type=FIRE_RESISTANCE;duration=500;level=0;p=false;force=true} @Self ~onConsume ?!haspotioneffect{type=FIRE_RESISTANCE;level=>0;duration=>500}
+  - sound{s=block.cake.add_candle;pitch=1.2} @self ~onConsume

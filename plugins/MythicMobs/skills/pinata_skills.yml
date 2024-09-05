@@ -1,0 +1,208 @@
+pinata_hit_em:
+  Skills:
+  - setvariable{var=caster.xdiff;value="<caster.l.x>-<trigger.l.x>";t=float} @Self
+  - setvariable{var=caster.zdiff;value="<caster.l.z>-<trigger.l.z>";t=float} @Self
+  - setvariable{var=caster.bdiff;value="<caster.var.xdiff>-<caster.var.zdiff>";t=float} @Self
+  - setvariable{var=caster.cdiff;value="<caster.var.xdiff>+<caster.var.zdiff>";t=float} @Self
+  - message{m="<trigger.name> hitted no effect | Var xdiff <caster.var.xdiff> | Var zdiff <caster.var.zdiff> | Var &dBDIFF <caster.var.bdiff>"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+  - skill{s=pinata_hit_northeast_em} @Self
+  - skill{s=pinata_hit_east_em} @Self
+  - skill{s=pinata_hit_south_em} @Self
+  - skill{s=pinata_hit_north_em} @Self
+  - skill{s=pinata_hit_west_em} @Self
+  - skill{s=pinata_hit_northwest_em} @Self
+  - skill{s=pinata_hit_southwest_em} @Self
+  - skill{s=pinata_hit_southeast_em} @Self
+  
+
+pinata_hit_east_em:
+  Conditions:
+  - hasaura{n=hittedmain} false
+  - variableInRange{var=caster.xdiff;value=>1} true
+  - variableInRange{var=caster.zdiff;value=-1to1} true
+  Skills:
+
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+
+  - state{s=hit_west;li=2;lo=3} @self
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - message{m="hitted EAST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_west_em:
+  Conditions:
+  - variableInRange{var=caster.xdiff;value=<0} true
+  - variableInRange{var=caster.zdiff;value=-1to1} true
+  Skills:
+
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_west;lo=18;remove=true} @self
+
+  - state{s=hit_east;li=2;lo=3} @self
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - message{m="hitted EAST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_south_em:
+  Conditions:
+  - variableInRange{var=caster.xdiff;value=-1to1} true
+  - variableInRange{var=caster.zdiff;value=<0} true
+  Skills:
+  - Aura{auraName=hittedmain;duration=5}
+  - state{s=hit_west;lo=18;remove=true} @self
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+  
+  - state{s=hit_north;li=2;lo=3} @self
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - message{m="hitted SOUTH"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_north_em:
+  Conditions:
+  - hasaura{n=hittedmain} false
+  - variableInRange{var=caster.xdiff;value=-1to1} true
+  - variableInRange{var=caster.zdiff;value=>0} true
+  Skills:
+  - Aura{auraName=hittedmain;duration=5}
+  - state{s=hit_west;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+  
+  - state{s=hit_south;li=2;lo=3} @self
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - message{m="hitted NORTH"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_southeast_em:
+  Conditions:
+  - hasaura{n=hittedmain} false
+  - variableInRange{var=caster.xdiff;value=-25to-1} true
+  - variableInRange{var=caster.zdiff;value=<0} true 
+  Skills:
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+  
+  - state{s=hit_east;li=2;lo=3} @self
+  - state{s=hit_nw;li=2;lo=3} @self
+  
+
+  - message{m="hitted SOUTHEAST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+pinata_hit_southwest_em:
+  Conditions:
+  - hasaura{n=hittedmain} false
+  - variableInRange{var=caster.xdiff;value=>0} true
+  - variableInRange{var=caster.zdiff;value=<0} true
+  Skills:
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+  
+  - state{s=hit_west;li=2;lo=3} @self
+  - state{s=hit_ne;li=2;lo=3} @self
+  
+
+  - message{m="hitted SOUTHWEST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_northwest_em:
+  Conditions:
+  - variableInRange{var=caster.xdiff;value=>0} true
+  - variableInRange{var=caster.zdiff;value=>0} true
+  Skills:
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_east;lo=18;remove=true} @self
+
+  - state{s=hit_west;li=2;lo=3} @self
+  - state{s=hit_se;li=2;lo=3} @self
+
+  - message{m="hitted NORTHWEST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_northeast_em:
+  Conditions:
+  - variableInRange{var=caster.xdiff;value=-30to-2} true
+  - variableInRange{var=caster.zdiff;value=>0} true
+  Skills:
+  - Aura{auraName=hittedmain;duration=5}
+  - state{s=hit_sw;lo=18;remove=true} @self
+  - state{s=hit_se;lo=18;remove=true} @self
+  - state{s=hit_nw;lo=18;remove=true} @self
+  - state{s=hit_ne;lo=18;remove=true} @self
+  - state{s=hit_south;lo=18;remove=true} @self
+  - state{s=hit_north;lo=18;remove=true} @self
+  - state{s=hit_west;lo=18;remove=true} @self
+
+  - state{s=hit_east;li=2;lo=3} @self
+  - state{s=hit_ne;li=2;lo=3} @self
+
+  - message{m="hitted NORTHEAST"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+
+pinata_hit_em_signal:
+  Conditions:
+  - yaw{y=-45to-135}
+  Skills:
+  - state{s=hit_east;li=2;lo=3} @Trigger
+
+
+pinata_candymarker_shoot1:
+  Skills:
+  - randomskill{s=[
+    - projectile{bulletType=MYTHICITEM;material=creeper_candy_em;bulletSpin=15;onEnd=[
+      - dropitem{i=creeper_candy_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#674ea7;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ],[
+    - projectile{bulletType=MYTHICITEM;material=corncandy_em;bulletSpin=15;onEnd=[
+      - dropitem{i=corncandy_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#FFCA2A;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ],[
+    - projectile{bulletType=MYTHICITEM;material=chocolatin_em;bulletSpin=15;onEnd=[
+      - dropitem{i=chocolatin_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#844931;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ],[
+    - projectile{bulletType=MYTHICITEM;material=blueberryllp_em;bulletSpin=15;onEnd=[
+      - dropitem{i=blueberryllp_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#46367C;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ],[
+    - projectile{bulletType=MYTHICITEM;material=strawberryllp_em;bulletSpin=15;onEnd=[
+      - dropitem{i=strawberryllp_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#CF6699;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ],[
+    - projectile{bulletType=MYTHICITEM;material=minty_em;bulletSpin=15;onEnd=[
+      - dropitem{i=minty_em} @origin{y=0.3}
+      ];onTick=[  - effect:particles{particle=reddust;color=#FBEDED;amount=1;hS=0.1;vS=0.1;size=0.8} @Origin{y=0}];
+      mr=15;v=6;i=1;hR=1.5;hp=false;hnp=true;vR=1.5;d=100;g=0.3;sE=true;sB=true;syo=6;tyo=5;sfo=0} @RLNTE{a=3;r=8;s=1;minr=3}
+    ];repeat=7;repeatInterval=1}
+
+testoxd:
+  Skills:
+  - summon{mob=pinata_candymarker;amount=1;noise=0;r=0.1;yr=0} @SelfLocation{y=-6}
+  

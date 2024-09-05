@@ -1,0 +1,336 @@
+redballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=redballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=redballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+blackballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=blackballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=blackballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+
+whiteballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=whiteballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=whiteballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+magentaballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=magentaballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=magentaballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+greenballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=greenballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=greenballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+yellowballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=yellowballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=yellowballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+violetballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=violetballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=violetballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true
+
+blueballoon_em:
+  Type: silverfish
+  Display: 'Balloon'
+  AITargetSelectors:
+  - 0 clear
+  AIGoalSelectors:
+  - 0 clear
+  Health: 2
+  Faction: Ballon
+  DamageModifiers:
+  - FIRE 0
+  - MAGIC 1.1
+  - PROJECTILE 5
+  Damage: 1 
+  KillMessages:
+  - '<target.name> was killed by a balloon. How? uh... xd'
+  Drops:
+  - exp 10-25 1
+  Skills:
+#====== MODEL ASSIGNEMENT =============
+  - model{mid=blueballoon_em;s=idle;n=false;damagetint=false} @self ~onSpawn 1
+  
+  - sound{s=entity.chicken.egg;pitch=1.1} @self ~onSpawn 
+  - takeitem{i=blueballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} false]} ~onSpawn
+  - takeitem{i=randomballoon_em;a=1} @Parent{conditions=[  - holding{m=randomballoon_em} true]} ~onSpawn
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self ~onDeath
+  - effect:particles{particle=FIREWORKS_SPARK;amount=10;hS=0.25;vS=0.2;speed=0.05;y=0.5} @origin ~onDeath
+  
+#========= 
+# LOCATION
+  - setvariable{var=caster.locationy;value="<caster.l.y>";t=integer} @Self ~onSpawn
+  - skill{s=floaty_em_balloon} @Self ~onInteract
+#
+  Options:
+    Silent: true
+    AlwaysShowName: false
+    MovementSpeed: 0.0001
+    Interactable: true
+    PreventOtherDrops: true
+    Collidable: true
+    NoGravity: true

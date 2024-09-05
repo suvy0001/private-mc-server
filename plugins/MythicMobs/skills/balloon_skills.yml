@@ -1,0 +1,25 @@
+floaty_em_balloon:
+  Skills:
+  - Aura{auraName=candlelitAura_em_cake;duration=1000;onTick=[
+      - skill{s=float_check_em_balloon} @Forward{f=0;y=2}
+      ]
+    ;onEnd=[
+      - effect:particles{p=smoke_large;amount=2;size=1;repeat=3;repeatinterval=1;speed=0.006} @ModelPart{p=candle_marker1;offset=LOCAL;y=0.1}
+    ];i=10;refreshDuration=true} @Self
+  - message{m="aura"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+  - potion{type=LEVITATION;duration=1000;level=1;p=false} @Self
+float_check_em_balloon:
+  TargetConditions:
+  - inblock{b=AIR} true
+  Conditions:
+  - variableInRange{var=caster.newlocationy;value=>40} castinstead float_boom_em_balloon
+  Skills:
+  - setvariable{var=caster.newlocationy;value="<caster.l.y>-<caster.var.locationy>";t=integer} @Self
+  - message{m="<caster.var.newlocationy>"} @PlayersNearOrigin{r=75} 0 #DEBUGMESSAGE
+  - effect:particles{p=reddust;color=#FFFFFF;a=1;speed=0.00;hs=0.15;vs=0.1;Size=0.9} @Origin{y=0} 0 #DEBUGPARTICLES
+float_boom_em_balloon:
+  Skills:
+  - sound{s=entity.chicken.egg;pitch=1.1} @self 
+  - sound{s=entity.firework_rocket.blast;pitch=1.4;v=4} @self
+  - effect:particles{particle=flash;amount=1;hS=0.1;vS=0.01;speed=0.05} @origin
+  - remove @Self

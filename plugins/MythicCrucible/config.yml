@@ -1,0 +1,23 @@
+Configuration:
+  Version: 1.5
+  
+  General:
+    AllowMetrics: true
+    ErrorLogging: true
+    
+  # Event options
+  Events:
+  
+    # Delay (in ticks) when a player joins before items are scanned
+    JoinDelay: 20
+
+  Furniture:
+    DefaultType: DISPLAY
+
+  # Compatibility options for other plugins
+  Compatibility:
+    ProtocolLib: true
+
+  # Options for the Item Updater
+  ItemUpdater:
+    Enabled: false

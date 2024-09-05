@@ -1,0 +1,151 @@
+
+# THESE ITEMS ARE MEANT TO BE USED AS FURNITURE
+# AND CAN BE DESTROYED TO RETRIEVE THEM.
+
+
+bluepompom_em:
+  Id: brick
+  Model: 6744
+  Hide:
+  - Attributes
+  Display: '<#4da39c>Blue Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 1
+    Model: 6744
+    Drops:
+    - bluepompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=light_blue_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+greenpompom_em:
+  Id: brick
+  Model: 6745
+  Hide:
+  - Attributes
+  Display: '<#52ae38>Green Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6745
+    Drops:
+    - greenpompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=lime_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+magentapompom_em:
+  Id: brick
+  Model: 6746
+  Hide:
+  - Attributes
+  Display: '<#c01886>Magenta Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6746
+    Drops:
+    - magentapompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=magenta_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+redpompom_em:
+  Id: brick
+  Model: 6747
+  Hide:
+  - Attributes
+  Display: '<#f44336>Red Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6747
+    Drops:
+    - redpompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=red_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+violetpompom_em:
+  Id: brick
+  Model: 6748
+  Hide:
+  - Attributes
+  Display: '<#674ea7>Violet Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6748
+    Drops:
+    - violetpompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=purple_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+yellowpompom_em:
+  Id: brick
+  Model: 6749
+  Hide:
+  - Attributes
+  Display: '<#ffd966>Yellow Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6749
+    Drops:
+    - yellowpompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=yellow_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
+
+orangepompom_em:
+  Id: brick
+  Model: 6750
+  Hide:
+  - Attributes
+  Display: '<#C9801D>Orange Birthday Pom pom'
+  Type: FURNITURE
+  Furniture:
+    Placement: HANGING
+    Material: brick
+    Health: 0
+    Model: 6750
+    Drops:
+    - orangepompom_em
+  FurnitureSkills:
+  - sound{s=entity.chicken.egg} @self ~onBlockPlace
+  - sound{s=block.wood.place} @self ~onBlockPlace
+  - sound{s=block.wood.place;pitch=0.7} @self ~onBlockPlace
+  - sound{s=block.wood.break} @self ~onBlockBreak
+  - effect:particles{p=block_crack;m=orange_wool;a=25;hs=1;y=0.2;vs=0.3;s=0.2} @Self ~onBlockBreak
