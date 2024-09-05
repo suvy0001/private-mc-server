@@ -82,6 +82,7 @@ world-settings:
       weepingvines-modifier: 100
       cavevines-modifier: 100
       glowberry-modifier: 100
+      pitcherplant-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -156,9 +157,9 @@ world-settings:
     enable-zombie-pigmen-portal-spawns: true
     verbose: false
 commands:
+  log: true
   tab-complete: 0
   send-namespaced: true
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
