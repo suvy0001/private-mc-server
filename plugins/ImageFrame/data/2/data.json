@@ -1,0 +1,494 @@
+{
+  "type": "com.loohp.imageframe.objectholders.URLStaticImageMap",
+  "index": 2,
+  "name": "a3",
+  "url": "https://cdn.discordapp.com/attachments/1259524269503680655/1281880978347917355/abee3.png?ex\u003d66dd5431\u0026is\u003d66dc02b1\u0026hm\u003d1c60899714801dee8e07f06e9c0163b58033245d5b69c43d2cb7f7f96ac2b800\u0026",
+  "width": 8,
+  "height": 12,
+  "ditheringType": "nearest-color",
+  "creator": "59408d04-a5bc-4e8e-8286-8f88285f783c",
+  "hasAccess": {},
+  "creationTime": 1725695727714,
+  "mapdata": [
+    {
+      "mapid": 120,
+      "image": "0.png",
+      "markers": []
+    },
+    {
+      "mapid": 121,
+      "image": "1.png",
+      "markers": []
+    },
+    {
+      "mapid": 122,
+      "image": "2.png",
+      "markers": []
+    },
+    {
+      "mapid": 123,
+      "image": "3.png",
+      "markers": []
+    },
+    {
+      "mapid": 124,
+      "image": "4.png",
+      "markers": []
+    },
+    {
+      "mapid": 125,
+      "image": "5.png",
+      "markers": []
+    },
+    {
+      "mapid": 126,
+      "image": "6.png",
+      "markers": []
+    },
+    {
+      "mapid": 127,
+      "image": "7.png",
+      "markers": []
+    },
+    {
+      "mapid": 128,
+      "image": "8.png",
+      "markers": []
+    },
+    {
+      "mapid": 129,
+      "image": "9.png",
+      "markers": []
+    },
+    {
+      "mapid": 130,
+      "image": "10.png",
+      "markers": []
+    },
+    {
+      "mapid": 131,
+      "image": "11.png",
+      "markers": []
+    },
+    {
+      "mapid": 132,
+      "image": "12.png",
+      "markers": []
+    },
+    {
+      "mapid": 133,
+      "image": "13.png",
+      "markers": []
+    },
+    {
+      "mapid": 134,
+      "image": "14.png",
+      "markers": []
+    },
+    {
+      "mapid": 135,
+      "image": "15.png",
+      "markers": []
+    },
+    {
+      "mapid": 136,
+      "image": "16.png",
+      "markers": []
+    },
+    {
+      "mapid": 137,
+      "image": "17.png",
+      "markers": []
+    },
+    {
+      "mapid": 138,
+      "image": "18.png",
+      "markers": []
+    },
+    {
+      "mapid": 139,
+      "image": "19.png",
+      "markers": []
+    },
+    {
+      "mapid": 140,
+      "image": "20.png",
+      "markers": []
+    },
+    {
+      "mapid": 141,
+      "image": "21.png",
+      "markers": []
+    },
+    {
+      "mapid": 142,
+      "image": "22.png",
+      "markers": []
+    },
+    {
+      "mapid": 143,
+      "image": "23.png",
+      "markers": []
+    },
+    {
+      "mapid": 144,
+      "image": "24.png",
+      "markers": []
+    },
+    {
+      "mapid": 145,
+      "image": "25.png",
+      "markers": []
+    },
+    {
+      "mapid": 146,
+      "image": "26.png",
+      "markers": []
+    },
+    {
+      "mapid": 147,
+      "image": "27.png",
+      "markers": []
+    },
+    {
+      "mapid": 148,
+      "image": "28.png",
+      "markers": []
+    },
+    {
+      "mapid": 149,
+      "image": "29.png",
+      "markers": []
+    },
+    {
+      "mapid": 150,
+      "image": "30.png",
+      "markers": []
+    },
+    {
+      "mapid": 151,
+      "image": "31.png",
+      "markers": []
+    },
+    {
+      "mapid": 152,
+      "image": "32.png",
+      "markers": []
+    },
+    {
+      "mapid": 153,
+      "image": "33.png",
+      "markers": []
+    },
+    {
+      "mapid": 154,
+      "image": "34.png",
+      "markers": []
+    },
+    {
+      "mapid": 155,
+      "image": "35.png",
+      "markers": []
+    },
+    {
+      "mapid": 156,
+      "image": "36.png",
+      "markers": []
+    },
+    {
+      "mapid": 157,
+      "image": "37.png",
+      "markers": []
+    },
+    {
+      "mapid": 158,
+      "image": "38.png",
+      "markers": []
+    },
+    {
+      "mapid": 159,
+      "image": "39.png",
+      "markers": []
+    },
+    {
+      "mapid": 160,
+      "image": "40.png",
+      "markers": []
+    },
+    {
+      "mapid": 161,
+      "image": "41.png",
+      "markers": []
+    },
+    {
+      "mapid": 162,
+      "image": "42.png",
+      "markers": []
+    },
+    {
+      "mapid": 163,
+      "image": "43.png",
+      "markers": []
+    },
+    {
+      "mapid": 164,
+      "image": "44.png",
+      "markers": []
+    },
+    {
+      "mapid": 165,
+      "image": "45.png",
+      "markers": []
+    },
+    {
+      "mapid": 166,
+      "image": "46.png",
+      "markers": []
+    },
+    {
+      "mapid": 167,
+      "image": "47.png",
+      "markers": []
+    },
+    {
+      "mapid": 168,
+      "image": "48.png",
+      "markers": []
+    },
+    {
+      "mapid": 169,
+      "image": "49.png",
+      "markers": []
+    },
+    {
+      "mapid": 170,
+      "image": "50.png",
+      "markers": []
+    },
+    {
+      "mapid": 171,
+      "image": "51.png",
+      "markers": []
+    },
+    {
+      "mapid": 172,
+      "image": "52.png",
+      "markers": []
+    },
+    {
+      "mapid": 173,
+      "image": "53.png",
+      "markers": []
+    },
+    {
+      "mapid": 174,
+      "image": "54.png",
+      "markers": []
+    },
+    {
+      "mapid": 175,
+      "image": "55.png",
+      "markers": []
+    },
+    {
+      "mapid": 176,
+      "image": "56.png",
+      "markers": []
+    },
+    {
+      "mapid": 177,
+      "image": "57.png",
+      "markers": []
+    },
+    {
+      "mapid": 178,
+      "image": "58.png",
+      "markers": []
+    },
+    {
+      "mapid": 179,
+      "image": "59.png",
+      "markers": []
+    },
+    {
+      "mapid": 180,
+      "image": "60.png",
+      "markers": []
+    },
+    {
+      "mapid": 181,
+      "image": "61.png",
+      "markers": []
+    },
+    {
+      "mapid": 182,
+      "image": "62.png",
+      "markers": []
+    },
+    {
+      "mapid": 183,
+      "image": "63.png",
+      "markers": []
+    },
+    {
+      "mapid": 184,
+      "image": "64.png",
+      "markers": []
+    },
+    {
+      "mapid": 185,
+      "image": "65.png",
+      "markers": []
+    },
+    {
+      "mapid": 186,
+      "image": "66.png",
+      "markers": []
+    },
+    {
+      "mapid": 187,
+      "image": "67.png",
+      "markers": []
+    },
+    {
+      "mapid": 188,
+      "image": "68.png",
+      "markers": []
+    },
+    {
+      "mapid": 189,
+      "image": "69.png",
+      "markers": []
+    },
+    {
+      "mapid": 190,
+      "image": "70.png",
+      "markers": []
+    },
+    {
+      "mapid": 191,
+      "image": "71.png",
+      "markers": []
+    },
+    {
+      "mapid": 192,
+      "image": "72.png",
+      "markers": []
+    },
+    {
+      "mapid": 193,
+      "image": "73.png",
+      "markers": []
+    },
+    {
+      "mapid": 194,
+      "image": "74.png",
+      "markers": []
+    },
+    {
+      "mapid": 195,
+      "image": "75.png",
+      "markers": []
+    },
+    {
+      "mapid": 196,
+      "image": "76.png",
+      "markers": []
+    },
+    {
+      "mapid": 197,
+      "image": "77.png",
+      "markers": []
+    },
+    {
+      "mapid": 198,
+      "image": "78.png",
+      "markers": []
+    },
+    {
+      "mapid": 199,
+      "image": "79.png",
+      "markers": []
+    },
+    {
+      "mapid": 200,
+      "image": "80.png",
+      "markers": []
+    },
+    {
+      "mapid": 201,
+      "image": "81.png",
+      "markers": []
+    },
+    {
+      "mapid": 202,
+      "image": "82.png",
+      "markers": []
+    },
+    {
+      "mapid": 203,
+      "image": "83.png",
+      "markers": []
+    },
+    {
+      "mapid": 204,
+      "image": "84.png",
+      "markers": []
+    },
+    {
+      "mapid": 205,
+      "image": "85.png",
+      "markers": []
+    },
+    {
+      "mapid": 206,
+      "image": "86.png",
+      "markers": []
+    },
+    {
+      "mapid": 207,
+      "image": "87.png",
+      "markers": []
+    },
+    {
+      "mapid": 208,
+      "image": "88.png",
+      "markers": []
+    },
+    {
+      "mapid": 209,
+      "image": "89.png",
+      "markers": []
+    },
+    {
+      "mapid": 210,
+      "image": "90.png",
+      "markers": []
+    },
+    {
+      "mapid": 211,
+      "image": "91.png",
+      "markers": []
+    },
+    {
+      "mapid": 212,
+      "image": "92.png",
+      "markers": []
+    },
+    {
+      "mapid": 213,
+      "image": "93.png",
+      "markers": []
+    },
+    {
+      "mapid": 214,
+      "image": "94.png",
+      "markers": []
+    },
+    {
+      "mapid": 215,
+      "image": "95.png",
+      "markers": []
+    }
+  ]
+}

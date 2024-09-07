@@ -26,7 +26,7 @@ chunk-system:
   io-threads: -1
   worker-threads: -1
 collisions:
-  enable-player-collisions: true
+  enable-player-collisions: false
   send-full-pos-for-hard-colliding-entities: true
 commands:
   fix-target-selector-tag-completion: true
@@ -75,7 +75,7 @@ packet-limiter:
   all-packets:
     action: KICK
     interval: 7.0
-    max-packet-rate: 500.0
+    max-packet-rate: -1.0
   kick-message: <red><lang:disconnect.exceeded_packet_rate>
   overrides:
     ServerboundPlaceRecipePacket:
