@@ -1,358 +1,314 @@
-[09:08:08] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:08:10] [ServerMain/INFO]: Loaded 7 recipes
-[09:08:10] [Server thread/INFO]: Starting minecraft server version 1.20
-[09:08:10] [Server thread/INFO]: Loading properties
-[09:08:10] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
-[09:08:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:08:11] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:08:11] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[11:52:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:52:42] [ServerMain/INFO]: Loaded 7 recipes
+[11:52:43] [Server thread/INFO]: Starting minecraft server version 1.20
+[11:52:43] [Server thread/INFO]: Loading properties
+[11:52:43] [Server thread/INFO]: This server is running Paper version git-Paper-17 (MC: 1.20) (Implementing API version 1.20-R0.1-SNAPSHOT) (Git: c287e92)
+[11:52:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:52:43] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:52:43] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[09:08:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[09:08:11] [Server thread/INFO]: Default game type: SURVIVAL
-[09:08:11] [Server thread/INFO]: Generating keypair
-[09:08:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:08:11] [Server thread/INFO]: Using epoll channel type
-[09:08:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:08:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
-[09:08:12] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
-[09:08:12] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
-[09:08:13] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@25432274]
-[09:08:13] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
-[09:08:13] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
-[09:08:14] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
-[09:08:14] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
-[09:08:14] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4!
-[09:08:14] [Server thread/INFO]: [FurnitureLib] Loading server plugin FurnitureLib v3.2.2
-[09:08:14] [Server thread/INFO]: [IFSnipper] Loading server plugin ItemframeSnipper v1.0.0
-[09:08:14] [Server thread/INFO]: [OpenAudioMc] Loading server plugin OpenAudioMc v6.10.2
-[09:08:14] [Server thread/INFO]: [MythicCrucible] Loading server plugin MythicCrucible v2.0.0-SNAPSHOT
-[09:08:14] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.6
-[09:08:14] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
-[09:08:14] [Server thread/INFO]: [DiceFurniture] Loading server plugin DiceFurniture v3.9.2
-[09:08:14] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.6.1
-[09:08:14] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.6.1.jar'
-[09:08:14] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_20_R1
-[09:08:14] [Server thread/INFO]: [MythicLib] Hooked onto WorldGuard
-[09:08:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:08:14] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
-[09:08:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[09:08:14] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[09:08:14] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[09:08:15] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[09:08:15] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.6
-[09:08:15] [Server thread/INFO]: Preparing level "world"
-[09:08:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:08:16] [Server thread/INFO]: Time elapsed: 210 ms
-[09:08:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:08:16] [Server thread/INFO]: Time elapsed: 47 ms
-[09:08:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:08:16] [Server thread/INFO]: Time elapsed: 147 ms
-[09:08:16] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[09:08:17] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[09:08:17] [Server thread/INFO]: [WorldGuard] Loading region data...
-[09:08:17] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
-[09:08:18] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
-[09:08:18] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
-[09:08:20] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
-[09:08:20] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled!
-[09:08:20] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/private-mc-server/plugins/MythicMobs/data
-[09:08:20] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/private-mc-server/plugins/MythicMobs/data/worlds
-[09:08:22] [Server thread/INFO]: [MythicMobs] Loading Packs...
-[09:08:22] [Server thread/INFO]: [MythicMobs] Loading Items...
-[09:08:22] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
-[09:08:22] [Server thread/INFO]: [MythicMobs] Loading Skills...
-[09:08:23] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
-[09:08:23] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
-[09:08:23] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 29 mobs.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 67 skills.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 68 mythic items.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
-[09:08:23] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
-[09:08:23] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[09:08:23] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs Premium v5.6.2 ( build 3e052553 ) has been successfully loaded!
-[09:08:23] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
-[09:08:23] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
-[09:08:23] [Server thread/INFO]: [FurnitureLib] Enabling FurnitureLib v3.2.2
-[09:08:24] [Server thread/INFO]: ==========================================
-[09:08:24] [Server thread/INFO]: FurnitureLib Version: 3.2.2
-[09:08:24] [Server thread/INFO]: Furniture Author: Ste3et_C0st
-[09:08:24] [Server thread/INFO]: Furniture Website: https://dicecraft.de/furniture/
-[09:08:24] [Server thread/INFO]: Furniture find ProtectionLib: false
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib use FurnitureLib-Paper module
-[09:08:24] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Starting...
-[09:08:24] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Start completed.
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib Started SQLite database. Took 59ms
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world)
-[09:08:24] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world_nether)
-[09:08:24] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world_nether
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world_the_end)
-[09:08:24] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world_the_end
-[09:08:24] [Server thread/INFO]: [FurnitureLib] FurnitureLib Load 0 model schematics into Ram. Took 1ms
-[09:08:24] [Server thread/INFO]: Furniture load finish :)
-[09:08:24] [Server thread/INFO]: ==========================================
-[09:08:24] [Server thread/INFO]: [IFSnipper] Enabling ItemframeSnipper v1.0.0
-[09:08:24] [Server thread/INFO]: [IFSnipper] Thank you for using ItemframeSnipper!
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.2
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1446 by Mats
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 43/43 migrations.
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/private-mc-server/plugins/OpenAudioMc/modules
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
-[09:08:24] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Detected version type: MODERN
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.13 speaker system
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Enabling voicechat channel filter
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 3 static voice channels
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Plugin WorldGuard is already enabled, running handler
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Turns out you have WorldGuard installed! enabling regions and the region tasks..
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the newer 1.13 regions
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Scanning 0 regions for duplicates (out of 0 total regions)
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] No duplicate regions found, skipping cleanup...
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] The legacy cdn exporter is disabled, skipping boot.
-[09:08:25] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 12950MS
-[09:08:25] [Server thread/INFO]: [MythicCrucible] Enabling MythicCrucible v2.0.0-SNAPSHOT
-[09:08:25] [Server thread/INFO]: [MythicMobs] §6------------------------------------------------
-[09:08:25] [Server thread/INFO]: [MythicMobs] §b+ Loading MythicCrucible for Bukkit
-[09:08:25] [Server thread/INFO]: [MythicMobs] §6------------------------------------------------
-[09:08:25] [Server thread/INFO]: [MythicMobs] Registering Durability Listener
-[09:08:30] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
-[09:08:30] [Server thread/INFO]: [MythicMobs] MythicCrucible Support has been enabled!
-[09:08:30] [Server thread/INFO]: [MythicMobs] MythicCrucible WorldEdit support enabled!
-[09:08:30] [Server thread/INFO]: [MythicMobs] ✓ MythicCrucible  v2.0.0 has been successfully loaded!
-[09:08:30] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
-[09:08:30] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[09:08:30] [Server thread/INFO]: [DiceFurniture] Enabling DiceFurniture v3.9.2
-[09:08:31] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.6.1
-[09:08:31] [Server thread/INFO]: [MythicMobs] MMO Plugin Support has been enabled!
-[09:08:31] [Server thread/INFO]: [MythicLib] Hooked onto MythicMobs
-[09:08:31] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
-[09:08:31] [Server thread/INFO]: Running delayed init tasks
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing blackballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing blueballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing greenballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing magentaballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing redballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing violetballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing whiteballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing yellowballoon_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_choco_cake.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_framboise_cake.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_passionfruit_cake.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_redvelvet_cake.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_strawberry_cake.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_confetti_resources.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_confetto_marker.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing beepinata_em.bbmodel.
-[09:08:31] [Server thread/INFO]: Done (20.911s)! For help, type "help"
-[09:08:31] [Server thread/INFO]: Timings Reset
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing burritopinata_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing creeperpinata_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing genericpinata_em.bbmodel.
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:31] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Importing tntpinata_em.bbmodel.
-[09:08:32] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] 
-[09:08:32] [Craft Scheduler Thread - 3 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
-[09:08:32] [Server thread/INFO]: [MythicMobs] Loading ProtocolLib listeners...
-[09:08:33] [Server thread/INFO]: [MythicMobs] Attached traits to items.
-[09:08:33] [Server thread/INFO]: [MythicMobs] Loaded 68 items.
-[09:08:33] [Craft Scheduler Thread - 5 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 3 ImageMaps!
-[09:08:47] [User Authenticator #0/INFO]: UUID of player Legendaryxxx is 59408d04-a5bc-4e8e-8286-8f88285f783c
-[09:08:50] [Server thread/INFO]: Legendaryxxx joined the game
-[09:08:50] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:35222] logged in with entity id 659 at ([world]287.0887433562557, 106.0, 237.81536896599138)
-[09:08:59] [Server thread/INFO]: Legendaryxxx issued server command: /plugins
-[09:09:29] [Server thread/INFO]: Legendaryxxx issued server command: /furniture give WaxCandle
-[09:09:52] [Server thread/INFO]: Legendaryxxx issued server command: /furniture give SleepingBag
-[09:10:13] [Server thread/INFO]: Legendaryxxx issued server command: /furniture give AdventCalender
-[09:10:35] [Server thread/WARN]: Legendaryxxx moved too quickly! -1.3317049737447064,0.0,-9.939855795327247
-[09:10:36] [Server thread/WARN]: Legendaryxxx moved too quickly! -1.3903114100636742,0.0,-10.431630582944422
-[09:11:39] [Server thread/INFO]: Legendaryxxx issued server command: //wand
-[09:11:59] [Server thread/INFO]: Legendaryxxx issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:stone
-[09:11:59] [Server thread/INFO]: [Legendaryxxx: Successfully filled 1 block(s)]
-[09:12:05] [Server thread/INFO]: Legendaryxxx issued server command: //set air
-[09:12:11] [Server thread/INFO]: Legendaryxxx issued server command: //set air
-[09:13:15] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
-[09:13:15] [Server thread/INFO]: Legendaryxxx left the game
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: --------------------------------------
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: Furniture async saving started
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: [FurnitureLib] Furniture save started
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: [FurnitureLib] 0 furniture has been saved to the database.
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: [FurnitureLib] 0 furniture has been updated in the database.
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: [FurnitureLib] 3 furniture has been removed from the database.
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: Furniture saving finish : 00:00.001
-[09:13:31] [Craft Scheduler Thread - 14 - FurnitureLib/INFO]: --------------------------------------
-[09:28:23] [User Authenticator #1/INFO]: UUID of player Legendaryxxx is 59408d04-a5bc-4e8e-8286-8f88285f783c
-[09:28:23] [Server thread/INFO]: Legendaryxxx joined the game
-[09:28:23] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:60524] logged in with entity id 738 at ([world]142.7443406787996, 99.88060059495996, -134.9273850268663)
-[09:28:42] [Server thread/INFO]: Legendaryxxx issued server command: /oa accept
-[09:28:44] [Craft Scheduler Thread - 29 - OpenAudioMc/INFO]: [OpenAudioMc] [info] Attempting to login to voice chat...
-[09:28:44] [OaVoiceWorker/INFO]: [OpenAudioMc] [info] Voice chat connected!
-[09:28:53] [Server thread/INFO]: Legendaryxxx issued server command: /oa account
-[09:33:42] [EventThread/INFO]: [OpenAudioMc] [info] The server closed the primary connection, but we were already aware of this. Ignoring.
-[09:34:57] [Server thread/INFO]: Legendaryxxx issued server command: /audio
-[09:34:58] [Craft Scheduler Thread - 44 - OpenAudioMc/INFO]: [OpenAudioMc] [info] Attempting to login to voice chat...
-[09:34:59] [OaVoiceWorker/INFO]: [OpenAudioMc] [info] Voice chat connected!
-[09:36:44] [Server thread/INFO]: Legendaryxxx issued server command: /audio
-[09:36:48] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
-[09:36:48] [Server thread/INFO]: Legendaryxxx left the game
-[09:36:51] [User Authenticator #2/INFO]: UUID of player Legendaryxxx is 59408d04-a5bc-4e8e-8286-8f88285f783c
-[09:36:51] [Server thread/INFO]: Legendaryxxx joined the game
-[09:36:51] [Server thread/INFO]: Legendaryxxx[/[0:0:0:0:0:0:0:1%0]:37184] logged in with entity id 746 at ([world]142.3316565608088, 99.88060059495996, -117.35001681405457)
-[09:46:35] [EventThread/INFO]: [OpenAudioMc] [info] The server closed the primary connection, but we were already aware of this. Ignoring.
-[11:16:23] [Server thread/INFO]: Legendaryxxx lost connection: Disconnected
-[11:16:23] [Server thread/INFO]: Legendaryxxx left the game
-[11:16:30] [Server thread/INFO]: Stopping the server
-[11:16:30] [Server thread/INFO]: Stopping server
-[11:16:30] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.6.1
-[11:16:30] [Server thread/INFO]: [DiceFurniture] Disabling DiceFurniture v3.9.2
-[11:16:30] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
-[11:16:30] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[11:16:30] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.6
-[11:16:30] [Server thread/INFO]: [MythicCrucible] Disabling MythicCrucible v2.0.0-SNAPSHOT
-[11:16:30] [Server thread/INFO]: [OpenAudioMc] Disabling OpenAudioMc v6.10.2
-[11:16:30] [Server thread/INFO]: [OpenAudioMc] [info] Shutting down
-[11:16:30] [Server thread/INFO]: [OpenAudioMc] [info] Saving world cache...
-[11:16:30] [Server thread/INFO]: [OpenAudioMc] [info] Saved 1 media chunks to db.
-[11:16:30] [Server thread/INFO]: [OpenAudioMc] [info] Stopped OpenAudioMc. Goodbye.
-[11:16:30] [Server thread/INFO]: [IFSnipper] Disabling ItemframeSnipper v1.0.0
-[11:16:30] [Server thread/INFO]: [FurnitureLib] Disabling FurnitureLib v3.2.2
-[11:16:30] [Server thread/INFO]: [FurnitureLib] ==========================================
-[11:16:30] [Server thread/INFO]: [FurnitureLib] Furniture shutdown started
-[11:16:30] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Starting...
-[11:16:30] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Start completed.
-[11:16:30] [Server thread/INFO]: [FurnitureLib] FurnitureLib Started SQLite database. Took 2ms
-[11:16:30] [Server thread/INFO]: [FurnitureLib] Furniture save started
-[11:16:30] [Server thread/INFO]: [FurnitureLib] ==========================================
-[11:16:30] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.6.2-3e052553
-[11:16:30] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:16:30] [Server thread/INFO]: [MythicMobs] - 
-[11:16:30] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
-[11:16:30] [Server thread/INFO]: [MythicMobs] - 
-[11:16:30] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:16:30] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
-[11:16:30] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
-[11:16:30] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[11:16:30] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[11:16:30] [Server thread/INFO]: [MythicMobs] - Variables saved...
-[11:16:30] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
-[11:16:30] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
-[11:16:30] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
-[11:16:30] [Server thread/INFO]: [MythicMobs] Saving plugin data...
-[11:16:30] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
-[11:16:30] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
-[11:16:30] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
-[11:16:30] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[11:16:30] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
-[11:16:30] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:16:30] [Server thread/INFO]: Saving players
-[11:16:30] [Server thread/INFO]: Saving worlds
-[11:16:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 58 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[11:16:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:16:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[11:16:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[11:16:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 13 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[11:16:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:16:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:16:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[11:16:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[11:16:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[11:16:31] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
-[11:16:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:16:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:16:31] [Server thread/INFO]: Flushing Chunk IO
-[11:16:31] [Server thread/INFO]: Closing Thread Pool
-[11:16:31] [Server thread/INFO]: Closing Server
+[11:52:43] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[11:52:43] [Server thread/INFO]: Default game type: SURVIVAL
+[11:52:43] [Server thread/INFO]: Generating keypair
+[11:52:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:52:43] [Server thread/INFO]: Using epoll channel type
+[11:52:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[11:52:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loading 3 libraries... please wait
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-api/4.14.0/adventure-api-4.14.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-key/4.14.0/adventure-key-4.14.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-gson/4.14.0/adventure-text-serializer-gson-4.14.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-json/4.14.0/adventure-text-serializer-json-4.14.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.0/adventure-text-serializer-bungeecord-4.3.0.jar
+[11:52:44] [Server thread/INFO]: [SpigotLibraryLoader] [ModelEngine] Loaded library /workspaces/private-mc-server/libraries/net/kyori/adventure-text-serializer-legacy/4.13.0/adventure-text-serializer-legacy-4.13.0.jar
+[11:52:45] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0+6678-55745ad
+[11:52:45] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3d6eb4c8]
+[11:52:45] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9+5934e49
+[11:52:45] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[11:52:46] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.6.2-3e052553
+[11:52:46] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[11:52:46] [Server thread/INFO]: [MythicMobs] §4M§6y§6t§6h§2i§2c§2 §3E§3n§1a§1b§1l§5e§5d§4!
+[11:52:46] [Server thread/INFO]: [FurnitureLib] Loading server plugin FurnitureLib v3.2.2
+[11:52:46] [Server thread/INFO]: [IFSnipper] Loading server plugin ItemframeSnipper v1.0.0
+[11:52:46] [Server thread/INFO]: [OpenAudioMc] Loading server plugin OpenAudioMc v6.10.2
+[11:52:46] [Server thread/INFO]: [MythicCrucible] Loading server plugin MythicCrucible v2.0.0-SNAPSHOT
+[11:52:46] [Server thread/INFO]: [ModelEngine] Loading server plugin ModelEngine vR4.0.6
+[11:52:46] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[11:52:46] [Server thread/INFO]: [DiceFurniture] Loading server plugin DiceFurniture v3.9.2
+[11:52:46] [Server thread/INFO]: [MythicLib] Loading server plugin MythicLib v1.6.1
+[11:52:46] [Server thread/INFO]: [MythicLib] Plugin file is called 'MythicLib-1.6.1.jar'
+[11:52:46] [Server thread/INFO]: [MythicLib] Detected Bukkit Version: v1_20_R1
+[11:52:46] [Server thread/INFO]: [MythicLib] Hooked onto WorldGuard
+[11:52:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:52:46] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0+6678-55745ad
+[11:52:46] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:52:46] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[11:52:47] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[11:52:48] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[11:52:48] [Server thread/INFO]: [ModelEngine] Enabling ModelEngine vR4.0.6
+[11:52:48] [Server thread/INFO]: Preparing level "world"
+[11:52:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:52:49] [Server thread/INFO]: Time elapsed: 225 ms
+[11:52:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[11:52:49] [Server thread/INFO]: Time elapsed: 75 ms
+[11:52:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[11:52:49] [Server thread/INFO]: Time elapsed: 136 ms
+[11:52:49] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9+5934e49
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[11:52:50] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[11:52:50] [Server thread/INFO]: [WorldGuard] Loading region data...
+[11:52:50] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.6.2-3e052553
+[11:52:50] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.0)...
+[11:52:50] [Server thread/INFO]: [MythicMobs] The server is running Paper; enabled Paper exclusive functionality
+[11:52:53] [Server thread/INFO]: [MythicMobs] Mythic ProtocolLib Support has been enabled!
+[11:52:53] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled!
+[11:52:53] [Server thread/INFO]: [MythicMobs] Base directory /workspaces/private-mc-server/plugins/MythicMobs/data
+[11:52:53] [Server thread/INFO]: [MythicMobs] Module directory /workspaces/private-mc-server/plugins/MythicMobs/data/worlds
+[11:52:55] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[11:52:55] [Server thread/INFO]: [MythicMobs] Loading Items...
+[11:52:55] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[11:52:55] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[11:52:56] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[11:52:56] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[11:52:56] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 29 mobs.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 3 vanilla mob overrides.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob stacks.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 67 skills.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 random spawns.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 68 mythic items.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 2 drop tables.
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ Loaded 0 mob spawners.
+[11:52:56] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[11:52:56] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[11:52:56] [Server thread/INFO]: [MythicMobs] ✓ MythicMobs Premium v5.6.2 ( build 3e052553 ) has been successfully loaded!
+[11:52:56] [Server thread/INFO]: [MythicMobs] Model Engine Compatibility Loaded.
+[11:52:56] [Server thread/INFO]: [ModelEngine] [S] Compatibility applied: MythicMobs
+[11:52:56] [Server thread/INFO]: [FurnitureLib] Enabling FurnitureLib v3.2.2
+[11:52:57] [Server thread/INFO]: ==========================================
+[11:52:57] [Server thread/INFO]: FurnitureLib Version: 3.2.2
+[11:52:57] [Server thread/INFO]: Furniture Author: Ste3et_C0st
+[11:52:57] [Server thread/INFO]: Furniture Website: https://dicecraft.de/furniture/
+[11:52:57] [Server thread/INFO]: Furniture find ProtectionLib: false
+[11:52:57] [Server thread/INFO]: [FurnitureLib] FurnitureLib use FurnitureLib-Paper module
+[11:52:57] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Starting...
+[11:52:57] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Start completed.
+[11:52:57] [Server thread/INFO]: [FurnitureLib] FurnitureLib Started SQLite database. Took 27ms
+[11:52:57] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world)
+[11:52:57] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world
+[11:52:57] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world_nether)
+[11:52:57] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world_nether
+[11:52:57] [Server thread/INFO]: [FurnitureLib] FurnitureLib try to load models for world (world_the_end)
+[11:52:57] [Server thread/INFO]: [FurnitureLib] No Models are found in world: world_the_end
+[11:52:58] [Server thread/INFO]: [FurnitureLib] FurnitureLib Load 42 model schematics into Ram. Took 813ms
+[11:52:58] [Server thread/INFO]: Furniture load finish :)
+[11:52:58] [Server thread/INFO]: ==========================================
+[11:52:58] [Server thread/INFO]: [IFSnipper] Enabling ItemframeSnipper v1.0.0
+[11:52:58] [Server thread/INFO]: [IFSnipper] Thank you for using ItemframeSnipper!
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.2
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1446 by Mats
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 43/43 migrations.
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/private-mc-server/plugins/OpenAudioMc/modules
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[11:52:58] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] Detected version type: MODERN
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.13 speaker system
+[11:52:59] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Enabling voicechat channel filter
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 3 static voice channels
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Plugin WorldGuard is already enabled, running handler
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Turns out you have WorldGuard installed! enabling regions and the region tasks..
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the newer 1.13 regions
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Scanning 0 regions for duplicates (out of 0 total regions)
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] No duplicate regions found, skipping cleanup...
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] The legacy cdn exporter is disabled, skipping boot.
+[11:53:00] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 15171MS
+[11:53:00] [Server thread/INFO]: [MythicCrucible] Enabling MythicCrucible v2.0.0-SNAPSHOT
+[11:53:00] [Server thread/INFO]: [MythicMobs] §6------------------------------------------------
+[11:53:00] [Server thread/INFO]: [MythicMobs] §b+ Loading MythicCrucible for Bukkit
+[11:53:00] [Server thread/INFO]: [MythicMobs] §6------------------------------------------------
+[11:53:00] [Server thread/INFO]: [MythicMobs] Registering Durability Listener
+[11:53:04] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[11:53:04] [Server thread/INFO]: [MythicMobs] MythicCrucible Support has been enabled!
+[11:53:04] [Server thread/INFO]: [MythicMobs] MythicCrucible WorldEdit support enabled!
+[11:53:04] [Server thread/INFO]: [MythicMobs] ✓ MythicCrucible  v2.0.0 has been successfully loaded!
+[11:53:04] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[11:53:04] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[11:53:04] [Server thread/INFO]: [DiceFurniture] Enabling DiceFurniture v3.9.2
+[11:53:05] [Server thread/INFO]: [MythicLib] Enabling MythicLib v1.6.1
+[11:53:05] [Server thread/INFO]: [MythicMobs] MMO Plugin Support has been enabled!
+[11:53:05] [Server thread/INFO]: [MythicLib] Hooked onto MythicMobs
+[11:53:05] [Server thread/INFO]: [MythicLib] Hooked onto ProtocolLib
+[11:53:05] [Server thread/INFO]: Running delayed init tasks
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] [Importing models]
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing blackballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing blueballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing greenballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing magentaballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing redballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing violetballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing whiteballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing yellowballoon_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_choco_cake.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_framboise_cake.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_passionfruit_cake.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_redvelvet_cake.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_strawberry_cake.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_confetti_resources.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing em_confetto_marker.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing beepinata_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing burritopinata_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing creeperpinata_em.bbmodel.
+[11:53:05] [Server thread/INFO]: Done (22.412s)! For help, type "help"
+[11:53:05] [Server thread/INFO]: Timings Reset
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing genericpinata_em.bbmodel.
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:05] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Importing tntpinata_em.bbmodel.
+[11:53:06] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] 
+[11:53:06] [Craft Scheduler Thread - 2 - ModelEngine/INFO]: [ModelEngine] [A] Resource pack zipped.
+[11:53:06] [Craft Scheduler Thread - 1 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 3 ImageMaps!
+[11:53:06] [Server thread/INFO]: [MythicMobs] Loading ProtocolLib listeners...
+[11:53:07] [Server thread/INFO]: [MythicMobs] Attached traits to items.
+[11:53:07] [Server thread/INFO]: [MythicMobs] Loaded 68 items.
+[11:54:15] [Server thread/INFO]: Stopping the server
+[11:54:15] [Server thread/INFO]: Stopping server
+[11:54:15] [Server thread/INFO]: [MythicLib] Disabling MythicLib v1.6.1
+[11:54:15] [Server thread/INFO]: [DiceFurniture] Disabling DiceFurniture v3.9.2
+[11:54:15] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
+[11:54:15] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[11:54:15] [Server thread/INFO]: [ModelEngine] Disabling ModelEngine vR4.0.6
+[11:54:15] [Server thread/INFO]: [MythicCrucible] Disabling MythicCrucible v2.0.0-SNAPSHOT
+[11:54:15] [Server thread/INFO]: [OpenAudioMc] Disabling OpenAudioMc v6.10.2
+[11:54:15] [Server thread/INFO]: [OpenAudioMc] [info] Shutting down
+[11:54:15] [Server thread/INFO]: [OpenAudioMc] [info] Saving world cache...
+[11:54:15] [Server thread/INFO]: [OpenAudioMc] [info] Saved 0 media chunks to db.
+[11:54:15] [Server thread/INFO]: [OpenAudioMc] [info] Stopped OpenAudioMc. Goodbye.
+[11:54:15] [Server thread/INFO]: [IFSnipper] Disabling ItemframeSnipper v1.0.0
+[11:54:15] [Server thread/INFO]: [FurnitureLib] Disabling FurnitureLib v3.2.2
+[11:54:15] [Server thread/INFO]: [FurnitureLib] ==========================================
+[11:54:15] [Server thread/INFO]: [FurnitureLib] Furniture shutdown started
+[11:54:15] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Starting...
+[11:54:15] [Server thread/INFO]: [de.Ste3et_C0st.FurnitureLib.Database.com.zaxxer.hikari.HikariDataSource] FurnitureLib - Start completed.
+[11:54:15] [Server thread/INFO]: [FurnitureLib] FurnitureLib Started SQLite database. Took 2ms
+[11:54:15] [Server thread/INFO]: [FurnitureLib] Furniture save started
+[11:54:15] [Server thread/INFO]: [FurnitureLib] ==========================================
+[11:54:15] [Server thread/INFO]: [MythicMobs] Disabling MythicMobs v5.6.2-3e052553
+[11:54:15] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[11:54:15] [Server thread/INFO]: [MythicMobs] - 
+[11:54:15] [Server thread/INFO]: [MythicMobs] - Unloading Mythic...
+[11:54:15] [Server thread/INFO]: [MythicMobs] - 
+[11:54:15] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[11:54:15] [Server thread/INFO]: [MythicMobs] - Spawners saved and unloaded...
+[11:54:15] [Server thread/INFO]: [MythicMobs] - Mobs saved and unloaded...
+[11:54:15] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[11:54:15] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[11:54:15] [Server thread/INFO]: [MythicMobs] - Variables saved...
+[11:54:15] [Server thread/INFO]: [MythicMobs] - All active settings have been saved!
+[11:54:15] [Server thread/INFO]: [MythicMobs] - Mythic has been unloaded!
+[11:54:15] [Server thread/INFO]: [MythicMobs] ------------------------------------------------------------
+[11:54:15] [Server thread/INFO]: [MythicMobs] Saving plugin data...
+[11:54:15] [Server thread/INFO]: [MythicMobs] ✓Saving Finished
+[11:54:15] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[11:54:15] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.9+5934e49
+[11:54:15] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[11:54:15] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.0+6678-55745ad
+[11:54:15] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:54:15] [Server thread/INFO]: Saving players
+[11:54:15] [Server thread/INFO]: Saving worlds
+[11:54:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:54:15] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:54:15] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:54:15] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:54:16] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 0.96s
+[11:54:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:54:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:54:16] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:54:16] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:54:16] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:54:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.51s
+[11:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:54:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:54:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:54:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:54:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:54:17] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.17s
+[11:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:54:17] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:54:17] [Server thread/INFO]: Flushing Chunk IO
+[11:54:17] [Server thread/INFO]: Closing Thread Pool
+[11:54:17] [Server thread/INFO]: Closing Server
